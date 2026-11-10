@@ -1,0 +1,17 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+out/
+
+# IDE and tooling
+.vs/
+.vscode/
+.idea/
+.cache/
+compile_commands.json
+CMakeUserPresets.json
+
+# Runtime artifacts
+*.csv
+*.log
