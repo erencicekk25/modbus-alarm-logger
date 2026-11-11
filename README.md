@@ -1,5 +1,9 @@
 # modbus-alarm-logger
 
+[![CI](https://github.com/erencicekk25/modbus-alarm-logger/actions/workflows/ci.yml/badge.svg)](https://github.com/erencicekk25/modbus-alarm-logger/actions/workflows/ci.yml)
+![Language](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Sahadaki bir cihazdan Modbus TCP ile veri okuyup, değerler belirlenen sınırların dışına çıktığında alarm üreten küçük ama eksiksiz bir izleme sistemi. Gerçek bir PLC ya da sensör olmadan denenebilsin diye projeye kendi sanal Modbus cihazını da ekledim. Programı çalıştırdığınızda bu sanal cihaz arka planda ayağa kalkıyor, alarm istemcisi ona bağlanıyor ve olan biteni konsoldan canlı olarak izleyebiliyorsunuz.
 
 Kod tamamen C++17 ile yazıldı ve standart kütüphane dışında hiçbir bağımlılığı yok. Windows (MinGW / MSVC), Linux ve macOS üzerinde derlenecek şekilde tasarlandı.
